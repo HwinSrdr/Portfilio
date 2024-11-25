@@ -21,6 +21,10 @@ li {
     flex-wrap: wrap;
 }
 
+.inlineBlock {
+    display: inline-block;
+}
+
 .container {
      /*background-color: red;*/
      max-width: 800px;
@@ -42,6 +46,10 @@ li {
     justify-content: space-between;
 }
 
+.spaceAround {
+    justify-content: space-around;
+}
+
 .spaceEvenly {
     justify-content: space-evenly;
 }
@@ -52,6 +60,25 @@ li {
 .centerC {
     justify-content: center;
 }
+
+.w30 {
+    width: 40%;
+}
+
+.paddingT20 {
+    padding-top: 20px;
+}
+
+.paddingT30 {
+    padding-top: 30px;
+}
+
+.paddingR30 {
+    padding-right: 200px;
+}
+
+
+
 /* HEADER */
 
 header {
@@ -70,10 +97,6 @@ header {
 .navHeader {
     width: 50%;
     /* background-color: blue; */
-}
-
-.w30 {
-    width: 30%;
 }
     
 
@@ -119,14 +142,34 @@ box-shadow: 1px 0px 52px 26px rgba(0,0,0,0.75);
     height: 40vh;
 }
 .logoSize {
-    width: 150px;
-    height: 150px;
+    width: 168px;
+    height: 168px;
 }
 
 .paddingLogo {
     padding-right: 30px;
 }
 
-.PaddingP {
-    padding-top: 20px;
+/* Mes Projets */
+
+.scrollContainer {
+    width: 100%; 
+    overflow-x: auto; 
+}
+
+.content {
+    flex-wrap: nowrap;
+    display: flex;
+}
+
+.card {
+    min-width: 30%;
+}
+
+.card img {
+    width: 100%;
+}
+
+.gapCard {
+    gap: 100px;
 }
