@@ -173,3 +173,10 @@ box-shadow: 1px 0px 52px 26px rgba(0,0,0,0.75);
 .gapCard {
     gap: 100px;
 }
+
+/* Mes compétences */
+
+.packOffice {
+    width: 70px;
+    height: 40px;
+}
